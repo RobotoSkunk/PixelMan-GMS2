@@ -1,0 +1,11 @@
+/// @description Inicializar
+depth = 1;
+start_time = 0;
+time = 0;
+hold_alarm[0] = 0;
+hold_alarm[1] = 0;
+t = 0;
+started = 0;
+alarm[0] = 2;
+alarm[1] = -1;
+alarm_list = ds_list_create();

@@ -1,0 +1,205 @@
+Convirtiendo script GML: ${project_dir}\scripts\scr_player_walking\scr_player_walking.gml
+Descripción convertida /// @description Procesador de velocidades
+
+Convirtiendo script GML: ${project_dir}\scripts\scr_player_stop\scr_player_stop.gml
+Descripción convertida /// @description Procesador de velocidades
+
+La fuente fnt_roboto se ha convertido en la familia de fuente Arial (Regular) - La fuente se ha regenerado, pueden darse pequeñas inconsistencias 
+Convirtiendo script GML: ${project_dir}\objects\obj_player\Create_0.gml
+Descripción convertida /// @description Valores por defecto
+
+Convirtiendo script GML: ${project_dir}\objects\obj_player\Alarm_0.gml
+Descripción convertida /// @description Reiniciar habitación
+
+Convirtiendo script GML: ${project_dir}\objects\obj_player\Step_0.gml
+Descripción convertida /// @description Procesador principal
+Cadena convertida - línea 18: 'W' -> "W"
+Cadena convertida - línea 19: 'A' -> "A"
+Cadena convertida - línea 20: 'D' -> "D"
+
+Convirtiendo script GML: ${project_dir}\objects\obj_springboard\Create_0.gml
+Descripción convertida /// @description Valores iniciales por defecto
+
+Convirtiendo script GML: ${project_dir}\objects\obj_springboard\Step_0.gml
+Descripción convertida /// @description Procesador
+
+Convirtiendo script GML: ${project_dir}\objects\obj_power_gravity\Create_0.gml
+Descripción convertida /// @description Valores por defecto
+
+Convirtiendo script GML: ${project_dir}\objects\obj_power_gravity\Step_0.gml
+Descripción convertida /// @description Procesador
+
+Convirtiendo script GML: ${project_dir}\objects\obj_power_gravity\Draw_0.gml
+Descripción convertida /// @description Dibujar interfaz
+
+Convirtiendo script GML: ${project_dir}\objects\obj_saw\Create_0.gml
+Descripción convertida /// @description Inicializar
+
+Convirtiendo script GML: ${project_dir}\objects\obj_saw\Step_0.gml
+Descripción convertida /// @description Procesador
+
+Convirtiendo script GML: ${project_dir}\objects\obj_saw\Draw_0.gml
+Descripción convertida /// @description Dibujar sprites
+
+Convirtiendo script GML: ${project_dir}\objects\obj_saw_base\Create_0.gml
+Descripción convertida /// @description Inicialización
+
+Convirtiendo script GML: ${project_dir}\objects\obj_saw_base\Alarm_0.gml
+Descripción convertida /// @description Reiniciar
+
+Convirtiendo script GML: ${project_dir}\objects\obj_saw_base\Step_0.gml
+Descripción convertida /// @description Procesador
+
+Convirtiendo script GML: ${project_dir}\objects\obj_saw_base\Draw_0.gml
+Descripción convertida /// @description Dibujar sprites
+
+Convirtiendo script GML: ${project_dir}\objects\obj_cannon\Create_0.gml
+Descripción convertida /// @description Valores iniciales por defecto
+
+Convirtiendo script GML: ${project_dir}\objects\obj_cannon\Step_0.gml
+Descripción convertida /// @description Procesador
+
+Convirtiendo script GML: ${project_dir}\objects\obj_cannon\Draw_0.gml
+Descripción convertida /// @description Debug
+
+Convirtiendo script GML: ${project_dir}\objects\obj_rocket\Create_0.gml
+Descripción convertida /// @description Valores iniciales por defecto
+
+Convirtiendo script GML: ${project_dir}\objects\obj_rocket\Step_0.gml
+Descripción convertida /// @description Procesador
+
+Convirtiendo script GML: ${project_dir}\objects\obj_rocket\Draw_0.gml
+Descripción convertida /// @description Debug
+
+Convirtiendo script GML: ${project_dir}\objects\obj_display_controller\Create_0.gml
+Descripción convertida /// @description Propiedades del display
+
+Convirtiendo script GML: ${project_dir}\objects\obj_display_controller\Step_0.gml
+Cadena incluida - línea 3: view_xview -> __view_get( e__VW.XView, 0 )
+Cadena incluida - línea 4: view_yview -> __view_get( e__VW.YView, 0 )
+Cadena incluida - línea 3: view_wview -> __view_get( e__VW.WView, 0 )
+Cadena incluida - línea 4: view_hview -> __view_get( e__VW.HView, 0 )
+Cadena incluida - línea 11: view_object[0] = obj -> __view_set( e__VW.Object, 0, obj )
+Descripción convertida /// @description Procesador
+
+Convirtiendo script GML: ${project_dir}\objects\obj_camera\Create_0.gml
+Cadena incluida - línea 29: view_xview[0] = 0 -> __view_set( e__VW.XView, 0, 0 )
+Cadena incluida - línea 30: view_yview[0] = 0 -> __view_set( e__VW.YView, 0, 0 )
+Descripción convertida /// @description Inicializar
+
+Convirtiendo script GML: ${project_dir}\objects\obj_camera\Step_0.gml
+Cadena incluida - línea 40: view_xview -> __view_get( e__VW.XView, 0 )
+Cadena incluida - línea 40: view_xview -> __view_get( e__VW.XView, 0 )
+Cadena incluida - línea 59: view_xview -> __view_get( e__VW.XView, 0 )
+Cadena incluida - línea 59: view_xview -> __view_get( e__VW.XView, 0 )
+Cadena incluida - línea 18: view_xview[0] = -(view_wview[0]/2) + x -> __view_set( e__VW.XView, 0, -(view_wview[0]/2) + x )
+Cadena incluida - línea 81: view_xview[0] += choose(-shake, shake -> __view_set( e__VW.XView, 0, __view_get( e__VW.XView, 0 ) + (choose(-shake, shake) )
+Cadena incluida - línea 40: view_yview -> __view_get( e__VW.YView, 0 )
+Cadena incluida - línea 40: view_yview -> __view_get( e__VW.YView, 0 )
+Cadena incluida - línea 59: view_yview -> __view_get( e__VW.YView, 0 )
+Cadena incluida - línea 59: view_yview -> __view_get( e__VW.YView, 0 )
+Cadena incluida - línea 21: view_yview[0] = -(view_hview[0]/2) + y -> __view_set( e__VW.YView, 0, -(view_hview[0]/2) + y )
+Cadena incluida - línea 84: view_yview[0] += choose(-shake, shake -> __view_set( e__VW.YView, 0, __view_get( e__VW.YView, 0 ) + (choose(-shake, shake) )
+Descripción convertida /// @description Procesador
+Cadena convertida - línea 3: 'R' -> "R"
+Cadena incluida - línea 18: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Cadena incluida - línea 21: view_hview[0] -> __view_get( e__VW.HView, 0 )
+
+Convirtiendo script GML: ${project_dir}\objects\obj_camera\Draw_64.gml
+Descripción convertida /// @description Procesador de la GUI
+
+Convirtiendo script GML: ${project_dir}\objects\obj_camera\Draw_0.gml
+Cadena incluida - línea 5: view_xview -> __view_get( e__VW.XView, 0 )
+Cadena incluida - línea 5: view_xview -> __view_get( e__VW.XView, 0 )
+Cadena incluida - línea 7: view_xview -> __view_get( e__VW.XView, 0 )
+Cadena incluida - línea 7: view_xview -> __view_get( e__VW.XView, 0 )
+Cadena incluida - línea 5: view_yview -> __view_get( e__VW.YView, 0 )
+Cadena incluida - línea 5: view_yview -> __view_get( e__VW.YView, 0 )
+Cadena incluida - línea 7: view_yview -> __view_get( e__VW.YView, 0 )
+Cadena incluida - línea 7: view_yview -> __view_get( e__VW.YView, 0 )
+Descripción convertida /// @description Debug
+
+Convirtiendo script GML: ${project_dir}\objects\obj_credits_controller\Create_0.gml
+Descripción convertida /// @description Valores iniciales por defecto
+
+Convirtiendo script GML: ${project_dir}\objects\obj_credits_controller\Step_0.gml
+Descripción convertida /// @description Controlador
+
+Convirtiendo script GML: ${project_dir}\objects\obj_credits_controller\Draw_64.gml
+Descripción convertida /// @description Dibujar créditos
+
+Convirtiendo script GML: ${project_dir}\objects\obj_camera_menu\Create_0.gml
+Descripción convertida /// @description Inicializar
+
+Convirtiendo script GML: ${project_dir}\objects\obj_camera_menu\Step_0.gml
+Cadena incluida - línea 15: view_xview[0] = -(view_wview[0]/2) + x -> __view_set( e__VW.XView, 0, -(view_wview[0]/2) + x )
+Cadena incluida - línea 16: view_yview[0] = -(view_hview[0]/2) + y -> __view_set( e__VW.YView, 0, -(view_hview[0]/2) + y )
+Descripción convertida /// @description Procesador
+Cadena incluida - línea 15: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Cadena incluida - línea 16: view_hview[0] -> __view_get( e__VW.HView, 0 )
+
+Convirtiendo script GML: ${project_dir}\objects\obj_camera_menu\Draw_64.gml
+Descripción convertida /// @description Procesador de la GUI
+
+Convirtiendo script GML: ${project_dir}\objects\obj_game_data\Create_0.gml
+Descripción convertida /// @description Valores iniciales por defecto
+
+Convirtiendo script GML: ${project_dir}\objects\obj_pixel_IsDead\Create_0.gml
+Descripción convertida /// @description Inicializar
+
+Convirtiendo script GML: ${project_dir}\objects\obj_pixel_IsDead\Step_0.gml
+Descripción convertida /// @description Procesador
+
+Convirtiendo script GML: ${project_dir}\objects\obj_pixel_explosion\Create_0.gml
+Descripción convertida /// @description Inicializar
+
+Convirtiendo script GML: ${project_dir}\objects\obj_pixel_explosion\Step_0.gml
+Descripción convertida /// @description Procesador
+
+Convirtiendo script GML: ${project_dir}\objects\obj_pixel_rocket\Create_0.gml
+Descripción convertida /// @description Valores por defecto
+
+Convirtiendo script GML: ${project_dir}\objects\obj_pixel_rocket\Step_0.gml
+Descripción convertida /// @description Procesador
+
+Convirtiendo script GML: ${project_dir}\objects\obj_pixel_walk\Create_0.gml
+Descripción convertida /// @description Valores por defecto
+
+Convirtiendo script GML: ${project_dir}\objects\obj_pixel_walk\Step_0.gml
+Descripción convertida /// @description Procesador
+
+Convirtiendo script GML: ${project_dir}\objects\obj_color\Create_0.gml
+Descripción convertida /// @description Valores iniciales por defecto
+
+Convirtiendo script GML: ${project_dir}\objects\obj_color\Step_0.gml
+Descripción convertida /// @description Procesador
+
+Convirtiendo script GML: ${project_dir}\objects\obj_color\Draw_64.gml
+Descripción convertida /// @description Previsualizar personaje
+
+Convirtiendo script GML: ${project_dir}\objects\obj_color\Draw_0.gml
+Descripción convertida /// @description Dibujar colores
+
+Convirtiendo script GML: ${project_dir}\objects\obj_color_change\Create_0.gml
+Descripción convertida /// @description Valores iniciales por defecto
+
+Convirtiendo script GML: ${project_dir}\objects\obj_color_change\Step_0.gml
+Descripción convertida /// @description Procesador
+
+El icono macOS ${options_dir}\mac\icons\icon512.png se ha escrito como de 32-bit
+El script del instalador de Windows NSIS se ha pasado a predeterminado debido a cambios en GameMaker Studio 2
+Velocidad del juego fijada en 60
+Añadido el script de compatibilidad "action/action_current_room.gml"
+Añadido el script de compatibilidad "action/action_end_game.gml"
+Añadido el script de compatibilidad "action/action_next_room.gml"
+Añadido el script de compatibilidad "action/action_previous_room.gml"
+Añadido el script de compatibilidad "instance/instance_create.gml"
+Añadido el script de compatibilidad "object/object_get_depth.gml"
+Añadido el script de compatibilidad "view/room_set_view.gml"
+Añadido el script de compatibilidad "view/__view_get.gml"
+Añadido el script de compatibilidad "view/__view_set.gml"
+Añadido el script de compatibilidad "view/__view_set_internal.gml"
+Añadido el script de compatibilidad "action/__init_action.gml"
+Añadido el script de compatibilidad "view/__init_view.gml"
+Añadido el script de compatibilidad "__init_global.gml"
+Añadido el script de compatibilidad "__global_object_depths.gml"

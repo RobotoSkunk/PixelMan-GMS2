@@ -1,0 +1,35 @@
+Aqui el de guardado:
+var draggableCount = instance_number(nombre del objeto que quieras usar para contruir);
+
+if (file_exists(nombre del archivo donde se guarda el nivel))
+{
+    file_delete(nombre del archivo donde se guarda el nivel);
+}
+
+var saveFile = file_text_open_write(nombre del archivo donde se guarda el nivel);
+for (var i = 0; i < draggableCount; i++)
+{
+    var instance = instance_find(nombre del objeto que quieras usar para contruir, i);
+    
+    // convert this instance into a ds_map
+    var instanceMap = ds_map_create();
+    ds_map_add(instanceMap, "x", instance.x);
+    ds_map_add(instanceMap, "y", instance.y);
+    ds_map_add(instanceMap, "image_index", instance.image_index);
+    ds_map_add(instanceMap, "image_xscale", instance.image_xscale);
+    ds_map_add(instanceMap, "image_angle", instance.image_angle);
+    ds_map_add(instanceMap, "image_yscale", instance.image_yscale);
+    ds_map_add(instanceMap, "image_blend", instance.image_blend);
+    ds_map_add(instanceMap, "image_alpha", instance.image_alpha);
+    
+    // convert ds_map into JSON
+    JsonInstance = json_encode(instanceMap);
+    
+    file_text_write_string(saveFile, JsonInstance);
+    file_text_write_string(saveFile, "|");
+    
+    ds_map_destroy(instanceMap);
+}
+
+// close the file
+file_text_close(saveFile);

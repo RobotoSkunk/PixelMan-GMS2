@@ -1,0 +1,41 @@
+if (file_exists(nombre del archivo donde se guarda el nivel))
+{
+    var worldLoadFile = file_text_open_read(nombre del archivo donde se guarda el nivel);
+    if (!file_text_eof(worldLoadFile))
+    {
+        var worldMasterData = file_text_read_string(worldLoadFile);
+        var wordArray = scr_string_split(worldMasterData, "|");
+        var draggableCount = array_length_1d(wordArray);
+        
+        if (draggableCount > 0)
+        {
+            for (var i = 0; i < draggableCount; i++)
+            {
+                var draggableJson = wordArray[i];
+                
+                var draggableMap = json_decode(draggableJson);
+                
+                var _x = ds_map_find_value(draggableMap, "x");
+                var _y = ds_map_find_value(draggableMap, "y");
+                var _imageIndex = ds_map_find_value(draggableMap, "image_index");
+                var _imageXscale = ds_map_find_value(draggableMap, "image_xscale");
+                var _imageYscale = ds_map_find_value(draggableMap, "image_yscale");
+                var _imageAngle = ds_map_find_value(draggableMap, "image_angle");
+                var _imageBlend = ds_map_find_value(draggableMap, "image_blend");
+                var _imageAlpha = ds_map_find_value(draggableMap, "image_alpha");
+                
+                var draggable = instance_create(_x, _y, obj_todo);
+                draggable.image_index = _imageIndex;
+                draggable.image_xscale = _imageXscale;
+                draggable.image_yscale = _imageYscale;
+                draggable.image_angle = _imageAngle;
+                draggable.image_blend = _imageBlend;
+                draggable.image_alpha = _imageAlpha;
+                
+                ds_map_destroy(draggableMap);
+            }
+        }
+    }
+    
+    file_text_close(worldLoadFile);
+}
