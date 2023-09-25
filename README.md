@@ -18,6 +18,15 @@ with it.
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 for details.
 
-Also, some parts of the code are not mine and maybe have different licenses.
-If you find any of these parts, please let me know by openning an issue so I
-can add the proper license to it.
+All of the resources used in this project (music, sound effects, sprites, etc.)
+are licensed under a different license, you can find them in the new
+[Godot version repository](https://github.com/RobotoSkunk/PixelMan-Adventures).
+
+
+#### Third party scripts and extensions
+Some parts of the code are not mine and maybe have different licenses,
+you can find them in the [Acknowledgements](Acknowledgements.md) file.
+
+If you find any of these parts that are not listed in the Acknowledgements file,
+please let me know by my email [contact@robotoskunk.com](mailto:contact@robotoskunk.com)
+so can add the proper license to it.
